@@ -1,13 +1,23 @@
 .category{
 border-radius: 15px 4px 15px 4px;
 }
-
+.category:hover{
+    box-shadow: 0px 0px 50px 0px #F5F8FF !important;
+    scale: 1.01;
+}
 .companies-logo img{
 border: 1px solid lightgray;
 border-radius: 4px;
 }
+.activeCompanies-logo{
+    border-radius: 4px;
+}
 .active-comapnies{
-    border-radius: 5px;
+    border-radius: 15px 4px 15px 4px;
+}
+.active-comapnies:hover{
+     box-shadow: 0px 0px 50px 0px #F5F8FF !important;
+    scale: 1.01;
 }
 .compny-heading{
     border-radius: 15px 4px 15px 4px;
