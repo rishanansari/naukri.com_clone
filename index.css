@@ -22,3 +22,13 @@ border-radius: 4px;
 .compny-heading{
     border-radius: 15px 4px 15px 4px;
 }
+
+.company-decription span{
+    border:  1px solid #ECF5FF ;
+    padding: 2px 3px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.chips button span{
+    font-size: 5px !important;
+}
