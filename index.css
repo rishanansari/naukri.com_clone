@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .category{
 border-radius: 15px 4px 15px 4px;
 }
@@ -31,4 +34,41 @@ border-radius: 4px;
 }
 .chips button span{
     font-size: 5px !important;
+}
+.listofInterviewQuestion ul li{
+    padding: 10px 0px 10px 0px;
+}
+.listofInterviewQuestion ul li a{
+    color: rgb(93, 92, 92) ;
+}
+
+.button{
+    margin-top: 20px;
+}
+.button a{
+    border: 1px solid #dbe4ed;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: rgb(93, 92, 92) ;
+    word-spacing: 2px;
+}
+.socialicons i{
+    color: grey !important;
+    cursor: pointer;
+}
+.footerlinks p{
+    margin-bottom: 10px;
+}
+.footerlinks p a{
+    font-size: 14px;
+}
+
+.footerlogo span{
+    font-size: 11px;
+    color: gray;
+}
+.business span{
+    font-size: 14px;
+    color: gray;;
 }

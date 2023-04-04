@@ -21,7 +21,7 @@
     <!-- NAVIGATION BAR  -->
     <nav
       style="padding: 15px 70px"
-      class="navbar navbar-expand-md navbar-black bg-white"
+      class="navbar navbar-expand-md navbar-black bg-white fixed-top shadow-sm"
     >
       <div class="container-fluid">
         <button
@@ -61,13 +61,14 @@
               Login
             </button>
             <button
-              class="btn btn-outline-light border border-1 border-danger text-white bg-danger rounded-pill pb-2 px-4 fw-bold"
+              class="btn btn-outline-light border border-1 border-danger text-white rounded-pill pb-2 px-4 fw-bold"
               type="submit"
+              style="background-color: #f05537;"
             >
               Register
             </button>
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 border-start border-1 border-light-subtle">
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -77,7 +78,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  For Employers
                 </a>
                 <ul
                   class="dropdown-menu px-2"
@@ -98,7 +99,7 @@
       </div>
     </nav>
     <!-- main content strat  -->
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0" style="margin: 5% 0%;">
       <!-- search bar and heading  -->
       <div class="container-md" style="padding: 0px 50px">
         <div
@@ -3049,11 +3050,11 @@
     
       <!-- prepare for interview  -->
 
-      <div class="container-md">
+      <div class="container-md" style="position: relative; margin-bottom: 150px;">
         <div class="row g-4">
           <div class="col-md-3">
-            <div class="card h-100">
-              <div class="card-body">
+            <div class="card h-100 border-0">
+              <div class="card-body ">
                 <div>
                   <span class="d-inline-block my-1 fw-semibold" style="background-color: #f2f4ff; padding: 5px 10px; border-radius: 5px;color: #826cce; font-size: 12px;">by AmbitionBox</span>
                 </div>
@@ -3062,57 +3063,311 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="card h-100" style="border-radius: 15px 4px 15px 4px;">
-              <div id="carouselExample" class="carousel slide " style=" padding: 20px ;">
-                <div class="carousel-inner">
-                  <!-- 1st carousel  -->
-                <div class="carousel-item active">
-                   <div
-            class="row row-cols-1 row-cols-md-2 g-3 justify-content-center align-items-center align-content-center main_category"
-          >
+        <div class="col-md-5" style="position: absolute; top: -10%; left: 25%;">
+          <div class="card h-100 shadow-sm border-light-subtle" style="border-radius: 15px 4px 15px 4px;">
+              <div class="card-header bg-transparent text-center fw-semibold border-bottom-0 fs-5" style="padding: 20px 0px 0px 0px;">Interview questions by company</div>      
+            <div class="row row-cols-1 row-cols-md-2 g-3 main_category p-4">
             <div class="col">
               <div class="card category shadow-sm border-1 border-light-subtle">
                 <a
                   href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
-                  class="text-decoration-none"
-                >
+                  class="text-decoration-none">
                   <div
-                    class="card-body text-light-emphasis py-2 px-3 "
-                  >
-                  <div class="interview_innerdiv d-flex  align-items-center gap-1">
-
-                  
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
                   <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/amazon.png" alt="" width="44px" height="44px">
                   <div class="innerdiv">
                     <h5 class="card-title fs-6 m-0">Amazon <i class="bi bi-caret-right m-1"></i></h5>
-                    <span>7.3k+ Jobs </span>
+                    <span style="font-size: 13px; color: darkgray;">1.7K+ Interviews </span>
                   </div>
-                    
                   </div>
                   </div>
                 </a>
               </div>
             </div>
-            
+            <div class="col">
+              <div class="card category shadow-sm border-1 border-light-subtle">
+                <a
+                  href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
+                  class="text-decoration-none">
+                  <div
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
+                  <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/byjus.png" alt="" width="44px" height="44px">
+                  <div class="innerdiv">
+                    <h5 class="card-title fs-6 m-0">Byjus <i class="bi bi-caret-right m-1"></i></h5>
+                    <span style="font-size: 13px; color: darkgray;">153 Interviews </span>
                   </div>
-                </div>
+                  </div>
+                  </div>
+                </a>
               </div>
             </div>
+            <div class="col">
+              <div class="card category shadow-sm border-1 border-light-subtle">
+                <a
+                  href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
+                  class="text-decoration-none">
+                  <div
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
+                  <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/flipkart.png" alt="" width="44px" height="44px">
+                  <div class="innerdiv">
+                    <h5 class="card-title fs-6 m-0">Flipkart <i class="bi bi-caret-right m-1"></i></h5>
+                    <span style="font-size: 13px; color: darkgray;">713 Interviews </span>
+                  </div>
+                  </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card category shadow-sm border-1 border-light-subtle">
+                <a
+                  href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
+                  class="text-decoration-none">
+                  <div
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
+                  <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/tcs.png" alt="" width="44px" height="44px">
+                  <div class="innerdiv">
+                    <h5 class="card-title fs-6 m-0">TCS <i class="bi bi-caret-right m-1"></i></h5>
+                    <span style="font-size: 13px; color: darkgray;">2.3k+ Interviews </span>
+                  </div>
+                  </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card category shadow-sm border-1 border-light-subtle">
+                <a
+                  href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
+                  class="text-decoration-none">
+                  <div
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
+                  <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/accenture.png" alt="" width="44px" height="44px">
+                  <div class="innerdiv">
+                    <h5 class="card-title fs-6 m-0">Acenture <i class="bi bi-caret-right m-1"></i></h5>
+                    <span style="font-size: 13px; color: darkgray;">2k+ Interviews </span>
+                  </div>
+                  </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card category shadow-sm border-1 border-light-subtle">
+                <a
+                  href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"
+                  class="text-decoration-none">
+                  <div
+                    class="card-body text-light-emphasis py-2 px-3 ">
+                  <div class="interview_innerdiv d-flex  align-items-center gap-2">
+                  <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/cognizant.png" alt="" width="44px" height="44px">
+                  <div class="innerdiv">
+                    <h5 class="card-title fs-6 m-0">Cognizant <i class="bi bi-caret-right m-1"></i></h5>
+                    <span style="font-size: 13px; color: darkgray;">1.3k+ Interviews </span>
+                  </div>
+                  </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <div class="card-footer bg-transparent text-center border-top-0" style="padding: 05px 0px 25px 0px;"> <a href="" class="text-decoration-none">View All Companies <i class="bi bi-caret-right m-1"></i> </a></div>
+        </div>
+      </div>
+
+          <div class="col-md-4" style="position: absolute; top: -10%; right: 0%;">
+            <div class="card h-100 shadow-sm border-light-subtle" style="border-radius: 15px 4px 15px 4px;">
+              <div class="card-header bg-transparent text-center fw-semibold border-bottom-0 fs-5" style="padding: 20px 0px 0px 0px;">Interview questions by role</div> 
+              <div class="listofInterviewQuestion text-center d-flex justify-content-center " style="padding: 03px 0px;">
+                <div class="card border-0" style="width: 20rem;">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item" style="font-size: 15px;"> <a href=""> Software Engineeering  &nbsp;<span style="font-size: 13px; color: darkgray;">(2.7k+ questions)</span> </a></li>
+                    <li class="list-group-item" style="font-size: 15px;"> <a href="">Businees Analyst  &nbsp;<span style="font-size: 13px; color: darkgray;">(1.7k+ questions)</span></a>  </li>
+                    <li class="list-group-item" style="font-size: 15px;"> <a href="">Consultant  &nbsp;<span style="font-size: 13px; color: darkgray;">(2k+ questions)</span></a>  </li>
+                    <li class="list-group-item" style="font-size: 15px;"> <a href="">Financial Analyst  &nbsp;<span style="font-size: 13px; color: darkgray;">(1.9k+ questions)</span></a>  </li>
+                    <li class="list-group-item" style="font-size: 15px;"> <a href="">Sales & Marketing  &nbsp;<span style="font-size: 13px; color: darkgray;">(990 questions)</span></a>  </li>
+                    <li class="list-group-item" style="font-size: 15px;"> <a href="">Quality Engineer &nbsp;<span style="font-size: 13px; color: darkgray;">(990 questions)</span></a>  </li>
+                  </ul>
+                </div>
               </div>
+
+
+
+              <div class="card-footer bg-transparent text-center border-top-0" style="padding: 05px 0px 25px 0px;"> <a href="" class="text-decoration-none">View All Companies <i class="bi bi-caret-right m-1"></i> </a></div>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- premium service box  -->
+      <div class="container-md" style="">
+        <div class="row g-4 shadow-sm border-light-subtle py-5"  style="border-radius: 15px 4px 15px 4px;">
+          <div class="col-md-3 m-0 text-center">
+            <img src="https://static.naukimg.com/s/0/0/i/ff-services.png" alt="" width="139px" height="111px">
+            
+          </div>
+          <div class="col-md-6 m-0">
+            <h4>Accelerate your job search with premium services</h4>
+            <span class="" style="color:darkgray; font-size: 14px;">
+              Services to help you get hired, faster: from preparing your CV, getting recruiter attention, finding the right jobs, and more!
+            </span>
+            <div class="button">
+              <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/ff-services-icon2.png" alt="" width="16px "> Resume writting <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.png" alt="" width="6px" height="8px"></a>
+              <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/ff-services-icon3.png" alt="" width="16px "> Priority application <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.png" alt="" width="6px" height="8px"></a>
+              <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/ff-services-icon1.png" alt="" width="16px "> Resume display <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.png" alt="" width="6px" height="8px"></a>
+            </div>
+          </div>
+          <div class="col-md-3 m-0 d-flex align-content-center justify-content-center align-items-center">
+            <div class="learnmore text-center">
+              <button class="btn btn-primary rounded-pill fw-bold">
+                Learn more
+              </button>
+              <p class="text-dark-emphasis pt-2 mb-0">Includes paid services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- stand out among recruiter  -->
+      <div class="container-md" style="margin-top: 7%;">
+        <div class="row g-4 shadow-sm border-light-subtle"  style="border-radius: 15px 4px 15px 4px; background-color: #F7F8FF; position: relative;">
+          <div class="col-md-6 m-0 d-flex flex-column align-items-start justify-content-center" style="padding-left: 100px;">
+            <h3 class="fw-bold">Stand out among recruiters <br> with a video profile</h3>
+            <span class="py-2" style="color:darkgray; font-size: 14px;">Available for both Android and iOS apps</span>
+            <div class="input-group bg-white p-2 my-2 rounded-pill border border-light-subtle" style="width: 60%;">
+              <input type="text" class="form-control border-0 shadow-none" name="" id="" placeholder="Enter Mobile Number..." aria-describedby="button-addon2" width="60%">
+              <button class="btn btn-primary rounded-pill fw-semibold" id="button-addon2" type="button" style="padding: 0px 10px 0px 10px;">Get Link</button>
+            </div>
+              <div class="playstore pt-2">
+                <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png" alt="" width="110px "></a>
+                <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png" alt="" width="110px "></a>
+              </div>
+              <div class="qrcode bg-white text-center p-2 border border-primary-subtle" style="border-radius: 10px;position: absolute;top: 38%; left: 37%;">
+                <img src="https://static.naukimg.com/s/0/0/i/download-app-link/qr-code.svg" alt="qrcode" width="100px">
+                <p class="m-0 text-light-emphasis" style="font-size: 10px;">scan to download</p>
+              </div>
+          </div>
+          <div class="col-md-6 m-0 text-center pe-0">
+            <img src="https://static.naukimg.com/s/0/0/i/download-app-link/MaskGroup_v4.png" alt="" width="514px" height="">
+          </div>
+        </div>
+      </div>
+
+      <!-- website footer   -->
+      <div class="container-fluid" style="margin-top: 5%;">
+        <div class="container-md">
+          <div class="row g-4 mb-5" >
+            <div class="col-md-2 " style="">
+              <div class="sociallinks">
+                <img src="assets/naukri_Logo.png" alt="" width="147px" style="padding: 0px 0px 0px 10px;">
+                <p style="font-size: 14px; margin: 34px 0px 4px 10px;" class="fw-semibold">contect with us</p>
+                <div class="socialicons d-flex justify-content-around">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-linkedin"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 footerlinks ps-5" style="">
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                About us
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Carrer
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Employer home
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Sitemap
+              </a></p>
+            </div>
+            <div class="col-md-2 footerlinks ps-5" style="">
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Help center
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Summons/Notices
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Grievances
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Report issue
+              </a></p>
+            </div>
+            <div class="col-md-2 footerlinks ps-5">
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Privacy policy
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Terms & conditions
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Fraud alert
+              </a></p>
+              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                Trust & safety
+              </a></p>
+            </div>
+            <div class="col-md-4">
+              <div class="apply border border-light-subtle p-4 rounded-4">
+                <h6 class="m-0">Apply on the go</h6>
+                <span style="font-size: 11px;">Get real-time job updates on our App</span>
+                <div class="playstore pt-3">
+                  <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png" alt="" width="130px "></a>
+                  <a href="" class="fw-semibold"> <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png" alt="" width="130px "></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd footer  -->
+          <div class="row g-4 border-top border-light-subtle">
+            <div class="col-md-5 footerlogo d-flex gap-3 align-items-center">
+              <div class="footerimg">
+                <img src="https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg" alt="" width="91px">
+              </div>
+              <div class="footerspan">
+                <span>All trademarks are the property of their respective owners</span>
+                <span>All rights reserved © 2023 Info Edge (India) Ltd.</span>
+              </div>
+            </div>
+            <div class="col-md-2 d-flex justify-content-end align-items-center business p-0">
+              <span >  Our businesses</span>
+            </div>
+            <div class="col-md-5 px-2">
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex gap-2 align-items-center">
+                      <img src="https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png" class="d-block " alt="..." width="150px" height="40px">
+                      <img src="https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png" class="d-block " alt="..." width="150px" height="40px">
+                      <img src="	https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/ng.png" class="d-block " alt="..." width="150px" height="40px">
+                      <img src="	https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png" class="d-block " alt="..." width="150px" height="40px">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex gap-2 align-items-center">
+                      <img src="	https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png" class="d-block " alt="..." width="150px" height="40px">
+                    <img src="	https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/iimjobs.png" class="d-block " alt="..." width="150px" height="40px">
+                    <img src="	https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/hirist.png" class="d-block " alt="..." width="150px" height="40px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 
 
